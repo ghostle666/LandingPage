@@ -1,0 +1,237 @@
+
+html{
+
+  scroll-behavior: smooth;
+  font-size:18px;
+}
+
+nav {
+position: fixed;
+top: 0;
+background-color:#101819 ;
+z-index: 1000; 
+width:100%;
+padding:10px 20px;
+display:flex;
+align-items:center;
+}
+
+body{
+background-color:#2f3e46;
+color:#cad2c5;
+
+}
+
+
+#header-img{
+height:auto;
+width:50px;
+
+}
+
+
+ul{
+display:flex;
+justify-content:center;
+align-items:center;
+list-style:none;
+gap:15px;
+margin:0;
+padding: 0;
+
+}
+
+.how-section,.features, .Pricing{
+
+margin-top:120px;
+}
+
+ul li a {
+text-decoration:none;
+color:#cad2c5;
+font-size:16px;
+position:relative;
+transition: 0.8s all linear all linear;
+padding: 8px 15px;
+
+display:inline-block;
+}
+
+
+ul li a:hover {
+        color: #84a98c;
+    }
+
+ul li a::before {
+
+position:absolute;
+content:'';
+bottom:0;
+left: 0;
+
+}
+
+
+.hero-section{
+display:flex;
+padding-top:120px;
+}
+
+.hero-text{
+display:flex;
+flex-direction:column;
+width:40%;
+height:55vh;
+margin-left:10%;
+}
+
+
+.hero-title{
+font-size:55px;
+}
+
+
+
+.hero-button{
+height:40px;
+width:160px;
+border-radius:50px;
+background:transparent;
+color:#cad2c5;
+border-color:#cad2c5;
+margin-top:5%;
+
+}
+
+.hero-button:hover {
+color:#84a98c;
+
+
+}
+
+
+#meditating-lady{
+width:auto;
+height:400px;
+}
+
+
+.how-section{
+padding-top:150px;
+text-align:center;
+height:100vh;
+gap:10px;
+
+}
+
+.How-it-works{
+font-size:74px;
+
+}
+
+.step{
+
+font-size:30px;
+
+}
+
+.plan{
+text-align:center;
+display:inline-block;
+border-style:solid;
+border-radius:10%;
+padding:15px;
+min-width:100px;
+max-width:400px;
+
+}
+
+
+
+.Features {
+height:50vh;
+width:100%;
+display:flex;
+gap:50px;
+}
+
+.feature-pic{
+height:300px;
+width:500px;
+}
+
+
+#food{
+height:300px;
+margin-left:10%;
+}
+
+.Feature-text{
+display:flex;
+flex-direction:column;
+height:600px;
+width:400px;
+}
+
+
+.nutri{
+display:flex;
+}
+
+.nutri-text{
+
+height:500px;
+width:500px;
+margin-top:10%;
+margin-left:10%;
+}
+
+
+pricing{
+height:100vh;
+}
+
+
+
+.price-text{
+text-align:center;
+margin-top:150px;
+}
+
+.tiers{
+display:flex;
+gap:40px;
+align-items:center;
+justify-content:center;
+}
+
+
+
+#footer{
+
+display:flex;
+gap:20px;
+height:10vh;
+align-items:center;
+justify-content:center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+nav {
+    padding: 10px 10px;
+    flex-direction: column; /* Stack the image and nav items vertically on smaller screens */
+    align-items: flex-start; /* Align to the left for mobile view */
+}
+
+ul {
+    flex-direction: column; /* Stack the links vertically */
+    gap: 10px;
+    align-items: flex-start;
+}
+
+#header-img {
+    width: 40px; /* Adjust image size for mobile */
+}
+}
