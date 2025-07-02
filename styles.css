@@ -4,7 +4,7 @@
 font-family: Impact, "Arial Black", sans-serif;
 
    text-transform: uppercase;
-   font-weight: 200;
+   font-weight: 300;
 }
 
 
@@ -29,6 +29,7 @@ body{
 background-color:#FFFFFF;
 color:#000000;
 width: 100%;
+   font-weight: 300;
 }
 
 
@@ -77,7 +78,7 @@ align-items: center;
 justify-content: center;
 }
 .radial-overlay {
-  background: radial-gradient(circle, #ff77003d  0%, #FF7700 20%, #FFFFFF 70%);
+  background: radial-gradient(circle, #FF7700  0%, #ff7700c4 20%, #FFFFFF 70%);
 
   background-size:cover;
 }
@@ -112,21 +113,23 @@ gap: 1rem;
 display: flex;
 }
 
-
+.feat-t{
+  text-align: center;
+}
 
 .features{
   display: flex;
-
-  font-size: 10px;
-
+  font-size: 12px;
+  text-align: center;
+  gap: 5%;
 }
 
 
 
 
 .pic{
-
-height:13rem;
+height: auto;
+width: 100%;
 
 }
 
@@ -144,10 +147,10 @@ padding: 1%;
 display: flex;
 flex-direction: column;
 gap:3rem;
-
-
 }
-
+.rev-sec{
+ background: radial-gradient(circle, #ff77003d  0%, #ff770065 20%, #FFFFFF 70%);
+}
 footer{
 background-color: #36BCFF;
 height: 4rem;
@@ -198,6 +201,10 @@ font-size: 3rem;
   padding: 10%;
 }
 
+.review{
+
+  margin:5%;
+}
 
 }
 
