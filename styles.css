@@ -94,10 +94,10 @@ text-align: center;
 }
 
 .blue-square{
-padding: 2rem;
+height:100vh;
+
 text-align: center;
 background-color: #36BCFF;
-
 }
 .steps{
 display: flex;
@@ -262,5 +262,24 @@ justify-content: center;
   margin-bottom: 4%;
 
 }
+
+}
+
+
+
+@media only screen and (min-width:1440px){
+
+.hero-title{
+
+  font-size: 10rem;
+
+
+}
+
+.hero-button{
+
+  font-size: 40px;
+}
+
 
 }
