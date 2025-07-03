@@ -2,6 +2,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Koulen', sans-serif;
 }
 
 html{
@@ -25,7 +26,7 @@ body{
 background-color:#FFFFFF;
 color:#000000;
 width: 100%;
-font-family: 'Koulen', sans-serif;
+
 }
 
 
@@ -94,15 +95,19 @@ text-align: center;
 }
 
 .blue-square{
-height:100vh;
-
+height:10rem;
 text-align: center;
 background-color: #36BCFF;
+
+text-align: center;
 }
+
+
+
 .steps{
 display: flex;
 flex-direction: column;
-gap: 1rem;
+margin-top: 10%;
 text-align: center;
 }
 
@@ -112,7 +117,10 @@ text-align: center;
 }
 
 
+.feat-gap{
+margin: 10%;
 
+}
 
 .pic{
 height: auto;
@@ -172,11 +180,11 @@ position: relative;
 
 /*responsiveness*/ 
 
-
+/*medium screens*/
 @media only screen and (min-width: 426px) {
 
 .hero-title{
-font-size: 50px;
+font-size: 60px;
 width: 70%;
 }
 
@@ -189,7 +197,7 @@ justify-content: center;
 
 .how-tt{
 
-font-size: 3.7rem;
+font-size: 3.rem;
 
 }
 .half-blue{
@@ -197,11 +205,10 @@ display: flex;
 flex-direction: row;
 }
 .blue-square{
-height: 100hv;
+height: 28rem;
 width: 50%;
 font-size: 3rem;
 }
-
 
 .rt{
 text-align: center;
@@ -244,18 +251,33 @@ height: 50px 0px 100px;
   display: flex;
   font-size: 12px;
   text-align: center;
-  gap: 2%;
   margin: 10% 10%;
 }
 }
 
+.feat-gap{
+margin:1%;
+
+}
 
 @media only screen and (min-width: 768px){
+
 footer{
 display: flex;
 align-items: center;
 justify-content: center;
 
+}
+
+.steps, .features, .rt{
+
+font-size: 18px;
+
+}
+
+.steps{
+
+  margin:4%;
 }
 
 .ft{
@@ -271,7 +293,7 @@ justify-content: center;
 
 .hero-title{
 
-  font-size: 10rem;
+  font-size: 8rem;
 
 
 }
